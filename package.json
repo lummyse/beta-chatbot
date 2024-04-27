@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.75.0"
+  },
+  "scripts": {
+    "sass-build-test": "npx sass --watch ./scss/custom.scss ./css/custom.min.css",
+    "sass-build-deploy": "npx sass ./scss/custom.scss ./css/custom.min.css"
+  }
+}
