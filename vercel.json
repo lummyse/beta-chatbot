@@ -1,4 +1,4 @@
 {
-  "buildCommand": "npm sass-build-deploy",
+  "buildCommand": "npm run sass-build-deploy",
   "installCommand": "npm install"
 }
